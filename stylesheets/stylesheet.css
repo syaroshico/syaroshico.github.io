@@ -879,3 +879,25 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
 
+
+
+/* custom */
+ul#projects .item {
+    list-style: none;
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 2em;
+    margin: 2px;
+    padding: 1px;
+}
+
+ul#projects .item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+ul#projects {
+    padding-left: 0;
+}
