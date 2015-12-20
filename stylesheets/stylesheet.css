@@ -932,3 +932,18 @@ ul#projects .item a:hover {
 ul#projects {
     padding-left: 0;
 }
+
+ul.owner {
+  
+}
+
+ul.owner li {
+  border-bottom: #aaa solid 1px;
+  display: block;
+  margin-top: 10px;
+}
+
+ul.owner li .icon {
+  height: 32px;
+  width: 32px;
+}
