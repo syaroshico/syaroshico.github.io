@@ -64,7 +64,9 @@
 				var obj = {};
 				for(var i=0;i<Arr.length;i++) {
 					obj = Arr[i];
-					html += '<li class="item item-'+obj.id+'"><a href="'+obj.html_url+'">'+obj.name+'</a></li>';
+					html += '<li class="item item-'+obj.id+'"><a href="'+obj.html_url+'">'+obj.name;
+					html+=obj.description? '<div class="description">'+obj.description+'</div>':'';
+					html+='</a></li>';
 				}
 				$projects.innerHTML=html;
 			} catch (e){console.error(e);}
